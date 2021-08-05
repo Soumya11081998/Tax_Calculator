@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.enterData .button {
+  font-size: 200%;
+  width: 400px;
+  height: auto;
+  font-weight: 600;
+  margin: 10px;
+  padding: 10px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.2s ease;
+}
+
+.enterData .button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.enterData .button:active {
+  transform: scale(1);
+}
+
+
+.enterData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.enterData .amount {
+  height: 50px;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 200%;
+  font-weight: 900;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.enterData .amount:active {
+  background-color: rgb(181, 181, 211);
+}
+
